@@ -35,8 +35,8 @@ A clean, server-side image format converter built with PHP and the GD extension.
 ### 1 — Clone or download
 
 ```bash
-git clone https://github.com/your-username/php-image-converter.git
-cd php-image-converter
+git clone git@github.com:fernandes5000/claude-image-converter.git
+cd claude-image-converter
 ```
 
 Or simply unzip the downloaded archive into your web root.
@@ -73,7 +73,7 @@ Then open [http://localhost:8080](http://localhost:8080) in your browser.
 
 **Apache**
 
-Place the project folder inside your `DocumentRoot` (e.g. `/var/www/html/converter`) and navigate to `http://localhost/converter`.
+Place the project folder inside your `DocumentRoot` (e.g. `/var/www/html/converter`) and navigate to `http://localhost:8080/converter`.
 
 **Nginx**
 
